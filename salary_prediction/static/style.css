@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #26e0d1;
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #131212;
+    text-align: center;
+}
+.box h1,h3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 350;
+
+}
+
+.box input[type="number"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: .25s;
+
+}
+
+.box input[type="number"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+
+}
+
+.btn{
+    position: relative;
+    text-align: center;
+    width: 220px;
+    padding: 14px 40px;
+    font-size: 35px;
+    color: #15f4ee;
+    font-family: poppins;
+    font-weight: 400;
+    border: 2px solid #15f4ee;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: 1.5s;
+    background: #141414;
+
+
+}
+.btn:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px #15f4ee,
+                0 5px 50px 0 #15f4ee inset, 0 5px 50px #15f4ee;
+    text-shadow: 0 0 5px #15f4ee,0 0 5px #15f4ee;
+}
